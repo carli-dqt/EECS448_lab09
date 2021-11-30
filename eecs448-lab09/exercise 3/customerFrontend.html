@@ -7,14 +7,14 @@
       <title>Web Store</title>
     </head>
     <body>
-      <form name="webpage" action="customerBackend.php" onsubmit="return validateForm()" method="post">
+      <form action="/action_page.php" onsubmit="return validateForm()" method="post">
         <h1>Online Clothing Store</h1><br>
         <label for = "username">Insert username(email address):</label><br>
         <input type = "text" id = "username" name = "username"><br>
         <label for = "password">Insert password:</label><br>
         <input type = "password" id = "password" name = "password"><br>
         <br>
-        <br>
+        <br> 
         <img src="hmgoepprod.jpeg" height=200px width=130px><br>
         Relaxed-fit Hoodie<br>
         Price: $27<br>
@@ -24,7 +24,7 @@
         <br>
         <img src="2317a41a4a101a56d641ec8b82cf68cee8c9029e_xxl-1.jpg" height=200px width=130px><br>
         Calf-length Skirt<br>
-        Price: $17<br>
+        Price: $18<br>
         <label for="skirt">Purchasing quantity(0 if not wanted):</label><br>
         <input type="number" id="skirt" name="skirt">
         <br>
@@ -51,9 +51,9 @@
         <input type="radio" id="html" name="shipping" value="HTML">
         <label for="html">$5.00 three day</label><br>
         <br>
-        <br>
-        <button type = "reset" onclick = "resetAll()">Reset</button>
-        <button type = "submit" onclick = "submitAll()">Submit</button>
+        <br> 
+        <button type = "reset">Reset</button>
+        <button type = "submit">Submit</button>
 
       </form>
 

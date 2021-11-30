@@ -37,4 +37,4 @@ echo "Score percentage: " . $percentage . "%<br>";
 
 ?>
 </body>
-<html>
+</html>

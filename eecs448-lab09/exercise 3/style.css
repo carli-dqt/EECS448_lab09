@@ -4,3 +4,21 @@ body
   color: rgb(70, 25, 0);
   font-family: Helvetica;
 }
+
+h1
+{
+  color: rgb(70, 25, 0);
+  font-family: Helvetica;
+}
+
+h2
+{
+  color: rgb(70, 25, 0);
+  font-family: Helvetica;
+}
+
+tr
+{
+  background-color: rgb(193, 223, 229);
+  color: rgb(0, 33, 41);
+}
